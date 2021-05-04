@@ -1,0 +1,19 @@
+.Header {
+  margin: 0 auto;
+}
+
+.searchbar {
+  font-weight: bolder;
+  width: 175px;
+}
+
+button {
+  color: #161d6f;
+  border-color: #726a95;
+  width: 55px;
+}
+
+button:hover {
+  color: #f8f1f1;
+  background-color: #aaaaaa;
+}

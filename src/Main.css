@@ -1,0 +1,10 @@
+.Main {
+  width: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(60deg, #29323cc0 0%, #485563c5 100%);
+  background-blend-mode: screen, overlay;
+  text-align: center;
+  position: relative;
+  border: 1px solid #343f56;
+  border-radius: 50px;
+}

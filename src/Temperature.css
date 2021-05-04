@@ -1,0 +1,25 @@
+.Temperature {
+  text-align: center;
+  position: relative;
+  padding: 65px 30px 30px 0px;
+}
+.rain {
+  border-radius: 50px;
+}
+
+.temp {
+  font-size: 135px;
+}
+
+.units {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #93abd3;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.conditions {
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-top: 8px;
+}

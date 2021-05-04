@@ -1,0 +1,11 @@
+.Location {
+  text-align: left;
+  padding: 22px 22px 5px 10px;
+  width: 425px;
+  height: 118px;
+  margin-left: 22px;
+}
+
+.time {
+  padding: 0px 0px 0px 10px;
+}
