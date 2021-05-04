@@ -3,7 +3,7 @@ import "./Location.css";
 
 export default function Location() {
   let timePlace = {
-    date: "MONDAY, APRIL 19 2021 12:00PM",
+    date: "MON. APRIL 19, 2021 12:00PM",
     city: "Chicago"
   };
   return (
