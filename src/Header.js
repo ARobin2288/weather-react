@@ -10,7 +10,7 @@ export default function Header() {
           className="searchbar"
           placeholder="Enter City Name..."
         />
-        <button type="submit">Search
+        <button type="submit">Search <i className="fas fa-search-location"></i>
         </button>
       </form>
     </div>

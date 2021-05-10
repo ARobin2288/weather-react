@@ -1,11 +1,10 @@
 body {
   background-image: url("clouds-background.jpg");
-  min-height: 100%;
   max-width: 600px;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center center;
   font-family: "Open Sans Condensed", sans-serif;
-  padding-top: 35px;
   margin: 0 auto;
+  padding-top: 22px;
 }

@@ -4,13 +4,17 @@
 
 .searchbar {
   font-weight: bolder;
-  width: 175px;
+  width: 200px;
+  height: 36px;
+  font-size: 19px;
+  margin-right: 8px;
 }
 
 button {
   color: #161d6f;
   border-color: #726a95;
-  width: 55px;
+  width: 75px;
+  height: 36px;
 }
 
 button:hover {
