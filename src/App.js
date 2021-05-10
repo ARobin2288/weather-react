@@ -10,7 +10,7 @@ export default function App() {
       <Header />
       <br />
       <Main />
-      <footer>Coded by Robin Andrews. Open-source on <a href="https://github.com/ARobin2288/weather-react.git" id="open-source-link">GitHub</a></footer>
+      <footer>Coded by Robin Andrews. Open-sourced on <a href="https://github.com/ARobin2288/weather-react.git" id="open-source-link" target="_blank">GitHub</a></footer>
       </div>
     </div>
   );

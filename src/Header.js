@@ -11,8 +11,7 @@ export default function Header() {
           placeholder="Enter City Name..."
           autoFocus="on"
         />
-        <button type="submit">Search <i className="fas fa-search-location"></i>
-        </button>
+        <button type="submit">Search</button>
       </form>
     </div>
   );

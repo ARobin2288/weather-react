@@ -3,4 +3,10 @@ footer {
   color: #706e6e;
   padding-top: 8px;
   font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: lighter;
+  color: #1b1a17;
+}
+a {
+  color: #1b1a17;
+  text-decoration: none;
 }
