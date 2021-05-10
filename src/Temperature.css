@@ -1,25 +1,28 @@
 .Temperature {
   text-align: center;
   position: relative;
-  padding: 65px 30px 30px 0px;
-}
-.rain {
-  border-radius: 50px;
+  margin-top: 148px;
 }
 
 .temp {
-  font-size: 135px;
+  font-size: 132px;
+  color: #f7d9d9;
+  font-family: "Lobster", cursive;
 }
 
 .units {
   font-family: "Open Sans Condensed", sans-serif;
   color: #93abd3;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: lighter;
+  position: relative;
+  top: -72px;
 }
 
 .conditions {
   font-size: 32px;
   text-transform: uppercase;
-  padding-top: 8px;
+  color: goldenrod;
+  font-weight: bolder;
+  padding-top: 12px;
 }

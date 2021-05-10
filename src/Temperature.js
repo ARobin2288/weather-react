@@ -8,16 +8,9 @@ export default function Temperature() {
   };
   return (
     <div className="Temperature">
-      <img
-        className="rain"
-        src="raindrops.jpg"
-        alt="Raindrops on glass"
-        width="60"
-        height="60"
-      />
       <h1>
-        <span className="temp">{currentTemp.value}</span>°
-        <span className="units">F|C</span>
+        <span className="temp">{currentTemp.value}</span>
+        <span className="units"> °F</span>
       </h1>
       <hr />
       <h4 className="conditions">{currentTemp.conditions}</h4>
