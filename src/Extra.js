@@ -9,7 +9,7 @@ export default function Extra() {
   };
   return (
     <div className="Extra">
-      <h4>FEELS LIKE</h4>
+      <h4>Feels Like</h4>
       <p>{extraInfo.feel}°F</p>
       <hr />
       <h4>WIND</h4>

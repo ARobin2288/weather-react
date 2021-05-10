@@ -1,7 +1,15 @@
 .Main {
-  background-image: linear-gradient(60deg, #29323cc0 0%, #485563c5 22%);
+  background-image: linear-gradient(82deg, 0%, 22%);
   background-blend-mode: screen, overlay;
+  background: radial-gradient(
+    circle at 10% 20%,
+    #136884 0%,
+    #a38e93 54.2%,
+    #fbe7dd 100.3%
+  );
   position: relative;
-  border: 4px solid #343f56;
+  border: 0px solid #625365;
   border-radius: 22px;
+  margin-top: -6px;
+  box-shadow: 8px 8px 8px #625365;
 }

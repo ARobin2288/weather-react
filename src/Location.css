@@ -1,21 +1,17 @@
 .Location {
   text-align: left;
-  padding: 22px 22px 5px 10px;
-  width: 425px;
-  height: 118px;
-  margin-left: 22px;
+  margin: 0 auto;
 }
 
 .time {
-  padding: 0px 0px 0px 10px;
-  color: #93abd3;
+  color: #f3f4ed;
   font-size: 20px;
   font-weight: lighter;
-  margin: 0 auto;
+  font-family: "Poiret One", cursive;
 }
 .place {
-  color: #f7d9d9;
-  font-family: "Lobster", cursive;
+  color: #1b1a17;
+  font-family: "Molle", cursive;
   text-transform: capitalize;
   font-size: 78px;
 }

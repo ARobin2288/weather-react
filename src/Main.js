@@ -7,13 +7,13 @@ import "./Main.css";
 export default function Main() {
   return (
     <div className="Main">
+      <Location />
+      <br />
       <div className="row">
-        <div className="col-7">
-          <Location />
-          <br />
-          <Extra />
+        <div className="col-4">
+        <Extra />
         </div>
-        <div className="col-5">
+        <div className="col-8">
           <Temperature />
         </div>
       </div>

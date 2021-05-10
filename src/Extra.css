@@ -1,17 +1,18 @@
 .Extra {
-  padding: 12px 22px 8px 18px;
   text-align: center;
 }
 .Extra h4 {
-  color: goldenrod;
+  color: #301b3f;
   font-weight: bolder;
   font-size: 25px;
   margin-bottom: 0;
+  font-family: "Arapey", serif;
 }
 .Extra p {
-  color: #93abd3;
+  color: #f3f4ed;
   font-size: 22px;
   font-weight: lighter;
+  font-family: "Poiret One", cursive;
 }
 .Extra hr {
   width: 35%;
@@ -19,5 +20,5 @@
   margin-right: auto;
   margin-top: -15px;
   margin-bottom: 3px;
-  color: #ccdf20;
+  color: #0f627f;
 }

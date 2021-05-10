@@ -1,16 +1,18 @@
 .searchbar {
   font-weight: bolder;
-  width: 200px;
-  height: 36px;
+  width: 222px;
+  height: 33px;
   font-size: 19px;
-  margin-right: 8px;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 button {
   color: #161d6f;
   border-color: #726a95;
   width: 75px;
-  height: 36px;
+  height: 33px;
+  margin: 0 8px;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 button:hover {
