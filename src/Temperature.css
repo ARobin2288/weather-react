@@ -1,11 +1,11 @@
 .Temperature {
   text-align: center;
   position: relative;
-  margin-top: 148px;
+  margin: 120px 0px 0px -50px;
 }
 
 .temp {
-  font-size: 132px;
+  font-size: 152px;
   color: #f7d9d9;
   font-family: "Lobster", cursive;
 }
@@ -25,4 +25,13 @@
   color: goldenrod;
   font-weight: bolder;
   padding-top: 12px;
+}
+
+.Temperature hr {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  margin-bottom: 3px;
+  color: #ccdf20;
 }

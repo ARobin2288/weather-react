@@ -1,16 +1,23 @@
 .Extra {
-  margin: 30px 0px 0px 60px;
   padding: 12px 22px 8px 18px;
   text-align: center;
 }
-h4 {
+.Extra h4 {
   color: goldenrod;
   font-weight: bolder;
   font-size: 25px;
   margin-bottom: 0;
 }
-p {
+.Extra p {
   color: #93abd3;
   font-size: 22px;
   font-weight: lighter;
+}
+.Extra hr {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  margin-bottom: 3px;
+  color: #ccdf20;
 }
