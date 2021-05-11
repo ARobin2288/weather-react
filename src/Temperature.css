@@ -22,9 +22,8 @@
   font-size: 32px;
   text-transform: uppercase;
   color: #301b3f;
-  font-weight: bolder;
   padding-top: 12px;
-  font-family: "Arapey", serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .Temperature hr {
