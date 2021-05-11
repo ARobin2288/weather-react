@@ -21,9 +21,10 @@
 .conditions {
   font-size: 32px;
   text-transform: uppercase;
-  color: #301b3f;
   padding-top: 12px;
-  font-family: "Alegreya Sans SC", sans-serif;
+  color: #f3f4ed;
+  font-weight: lighter;
+  font-family: "Poiret One", cursive;
 }
 
 .Temperature hr {

@@ -1,3 +1,27 @@
+.searchbar {
+  font-weight: lighter;
+  width: 222px;
+  height: 33px;
+  font-size: 19px;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+button {
+  color: #161d6f;
+  border-color: #726a95;
+  width: 66px;
+  height: 33px;
+  margin: 0 8px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 12px;
+  padding-top: 6px;
+}
+
+button:hover {
+  color: #f8f1f1;
+  background-color: #d1d1d1;
+}
+
 footer {
   margin: 0 auto;
   color: #706e6e;

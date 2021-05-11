@@ -10,10 +10,10 @@ export default function Main() {
       <Location />
       <br />
       <div className="row">
-        <div className="col-4">
+        <div className="col-5">
         <Extra />
         </div>
-        <div className="col-8">
+        <div className="col-7">
           <Temperature />
         </div>
       </div>
