@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Chicago" />
         <footer>
-          Coded by Robin Andrews and is open-sourced on 
+          Coded by Robin A. Open-sourced on{" "} 
           <a href="https://github.com/ARobin2288/weather-react.git" rel="noreferrer" id="open-source-link" target="_blank">GitHub</a>
         </footer>
       </div>
