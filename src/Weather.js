@@ -20,12 +20,6 @@ export default function Weather(props) {
     });
   }
 
-function search() {
-    const apiKey = "0f1996bbebf340db45987ce9fc344036";
-    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
-  axios.get(apiUrl).then(handleResponse);
-  }
-
 function handleSubmit(event) {
     event.preventDefault();
     search();
@@ -35,17 +29,23 @@ function handleSubmit(event) {
   setCity(event.target.value);
   }
 
+function search() {
+    const apiKey = "0f1996bbebf340db45987ce9fc344036";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+  axios.get(apiUrl).then(handleResponse);
+  }
+
     if (weatherData.ready) {
     return (
         <div className="Weather">
-<form onSubmit={handleSubmit}>
-          <input
-            type="search"
-            className="searchbar" 
-            placeholder="Enter City Name..."
-            autoFocus="on"
-            onChange={handleCityChange}
-          />
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              className="searchbar" 
+              placeholder="Enter City Name..."
+              autoFocus="on"
+              onChange={handleCityChange}
+            />
           <button type="submit">Search</button>
         </form>
         <br />
