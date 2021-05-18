@@ -21,7 +21,8 @@ const codeMapping = {
     "11n": "SLEET",
     "13n": "SNOW",
     "50n": "FOG",
-}
+};
+
     return (
         <ReactAnimatedWeather
     icon={codeMapping[props.code]}
