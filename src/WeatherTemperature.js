@@ -26,7 +26,7 @@ return (
     } else { 
         let celcius = (props.fahrenheit - 32) * 5 / 9;
         return (
-            <div className="WeatherTemperature">
+             <div className="WeatherTemperature">
                 <h1>
                 <span className="temp">{Math.round(celcius)}</span>
                 <span className="units">
