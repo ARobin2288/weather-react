@@ -1,13 +1,12 @@
 footer {
   margin: 0 auto;
-  color: #706e6e;
   padding-top: 8px;
   font-family: "Alegreya Sans SC", sans-serif;
+  color: #21094e;
   font-weight: lighter;
-  color: #1b1a17;
 }
 
 a {
-  color: #1b1a17;
+  color: #21094e;
   text-decoration: underline;
 }
