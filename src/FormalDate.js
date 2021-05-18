@@ -12,7 +12,6 @@ export default function FormalDate(props) {
         "Sat"
     ];
     let day =  days[props.date.getDay()];
-
     let months = [
 	    "January",
 	    "February",
@@ -27,10 +26,10 @@ export default function FormalDate(props) {
 	    "November",
 	    "December"
 	      ];
-    let month = months[props.getMonth()];
+    let month = months[props.date.getMonth()];
 
-    let date = props.getDate();
-    let year = props.getFullYear();
+    let date = props.date.getDate();
+    let year = props.date.getFullYear();
     let hours = props.date.getHours();
     if (hours < 10) {
         hours = `0${hours}`;
@@ -42,7 +41,7 @@ export default function FormalDate(props) {
     return ( 
         <div className="FormalDate">
             Updated 
-            <span> {day}, {month} {date}, {year} {hours}:{minutes}</span>
+            <span> {day}. {month} {date}, {year} {hours}:{minutes}</span>
         </div>
     )
 }
