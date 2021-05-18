@@ -49,7 +49,7 @@ function handleSubmit(event) {
           <button type="submit">Search</button>
         </form>
         <br />
-        <WeatherInfo data={weatherData}/>
+        <WeatherInfo data={weatherData} />
         </div>
     );
     } else {
