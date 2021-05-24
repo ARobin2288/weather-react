@@ -1,35 +1,8 @@
-.WeatherInfo {
-  background-image: linear-gradient(82deg, 0%, 22%);
-  background-blend-mode: screen, overlay;
-  background: radial-gradient(
-    circle at 10% 20%,
-    #136884 0%,
-    #a38e93e3 54.2%,
-    #fbe7dde7 100.3%
-  );
-  position: relative;
-  border: 0px solid #625365;
-  border-radius: 22px;
-  box-shadow: 8px 8px 8px #625365;
-  padding: 25px;
-}
-
-.time {
-  color: #f3f4ed;
-  font-size: 20px;
-  font-weight: lighter;
-  font-family: "Poiret One", cursive;
-  margin: 0 auto;
-  padding-left: 8px;
-  text-align: left;
-  margin: 0 auto;
-}
-
 .place {
   color: #1b1a17;
   font-family: "Alegreya Sans SC", sans-serif;
   text-transform: capitalize;
-  font-size: 68px;
+  font-size: 62px;
   text-align: left;
   margin: 0 auto;
 }
@@ -61,31 +34,31 @@
   color: #1b1a17;
 }
 
+canvas {
+  position: relative;
+  margin-top: 62px;
+}
+
 #current {
   text-align: center;
   position: relative;
-  margin-top: -22px;
-}
-
-canvas {
-  position: relative;
-  margin-top: -18px;
+  margin-top: 8px;
 }
 
 .temp {
-  font-size: 92px;
+  font-size: 70px;
   color: #1b1a17;
   font-family: "Poiret One", cursive;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .units {
   font-family: "Poiret One", cursive;
   color: #1b1a17;
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 16px;
+  font-weight: bolder;
   position: relative;
-  top: -52px;
+  top: -42px;
 }
 
 #current hr {
@@ -95,7 +68,7 @@ canvas {
 }
 
 .conditions {
-  font-size: 28px;
+  font-size: 22px;
   text-transform: uppercase;
   padding-top: 18px;
   color: #f3f4ed;
