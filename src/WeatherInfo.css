@@ -1,5 +1,5 @@
 .place {
-  color: #161d6f;
+  color: #30475e;
   font-family: "Alegreya Sans SC", sans-serif;
   text-transform: capitalize;
   font-size: 62px;
@@ -12,7 +12,7 @@ hr {
   margin-right: auto;
   margin-top: -8px;
   margin-bottom: 18px;
-  color: #94b5c0;
+  color: #ad6c80;
 }
 
 #extra {
@@ -20,14 +20,14 @@ hr {
 }
 
 #extra h4 {
-  color: #161d6f;
+  color: #30475e;
   font-size: 25px;
   margin-bottom: 0;
   font-family: "Alegreya Sans SC", sans-serif;
 }
 
 #extra p {
-  color: #5b5b5b;
+  color: #ad6c80;
   font-size: 22px;
   font-weight: bolder;
   font-family: "Poiret One", cursive;
@@ -39,7 +39,7 @@ hr {
   margin-right: auto;
   margin-top: -15px;
   margin-bottom: 3px;
-  color: #94b5c0;
+  color: #30475e;
 }
 
 .mainIcon {
@@ -55,14 +55,14 @@ hr {
 
 .temp {
   font-size: 72px;
-  color: #161d6f;
+  color: #30475e;
   font-family: "Poiret One", cursive;
   font-weight: bolder;
 }
 
 .units {
   font-family: "Poiret One", cursive;
-  color: #161d6f;
+  color: #30475e;
   font-size: 16px;
   font-weight: bolder;
   position: relative;
@@ -72,14 +72,14 @@ hr {
 #current hr {
   width: 75%;
   margin: 0 auto;
-  color: #94b5c0;
+  color: #30475e;
 }
 
 .conditions {
   font-size: 22px;
   text-transform: uppercase;
   padding-top: 18px;
-  color: #5b5b5b;
+  color: #ad6c80;
   font-weight: bolder;
   font-family: "Poiret One", cursive;
 }
