@@ -1,16 +1,16 @@
 .ForecastDay {
-  color: #1b1a17;
+  color: #161d6f;
   font-family: "Alegreya Sans SC", sans-serif;
   text-transform: capitalize;
   font-size: 18px;
   font-weight: bolder;
   text-decoration: underline;
-  text-decoration-color: goldenrod;
+  text-decoration-color: #94b5c0;
 }
 
 .ForecastTemps {
   font-size: 18px;
-  color: #1b1a17;
+  color: #5b5b5b;
   font-family: "Poiret One", cursive;
   font-weight: bolder;
 }

@@ -1,5 +1,5 @@
 .place {
-  color: #1b1a17;
+  color: #161d6f;
   font-family: "Alegreya Sans SC", sans-serif;
   text-transform: capitalize;
   font-size: 62px;
@@ -12,7 +12,7 @@ hr {
   margin-right: auto;
   margin-top: -8px;
   margin-bottom: 18px;
-  color: goldenrod;
+  color: #94b5c0;
 }
 
 #extra {
@@ -20,7 +20,7 @@ hr {
 }
 
 #extra h4 {
-  color: #1b1a17;
+  color: #161d6f;
   font-size: 25px;
   margin-bottom: 0;
   font-family: "Alegreya Sans SC", sans-serif;
@@ -39,7 +39,7 @@ hr {
   margin-right: auto;
   margin-top: -15px;
   margin-bottom: 3px;
-  color: goldenrod;
+  color: #94b5c0;
 }
 
 .mainIcon {
@@ -55,14 +55,14 @@ hr {
 
 .temp {
   font-size: 72px;
-  color: #1b1a17;
+  color: #161d6f;
   font-family: "Poiret One", cursive;
   font-weight: bolder;
 }
 
 .units {
   font-family: "Poiret One", cursive;
-  color: #1b1a17;
+  color: #161d6f;
   font-size: 16px;
   font-weight: bolder;
   position: relative;
@@ -72,7 +72,7 @@ hr {
 #current hr {
   width: 75%;
   margin: 0 auto;
-  color: goldenrod;
+  color: #94b5c0;
 }
 
 .conditions {
