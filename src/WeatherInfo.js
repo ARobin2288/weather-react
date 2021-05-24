@@ -22,7 +22,9 @@ export default function WeatherInfo(props) {
             <p>{Math.round(props.data.humidity)}%</p>
           </div>
           <div className="col-2">
-            <WeatherIcon code={props.data.icon} />
+            <div className="mainIcon">
+            <WeatherIcon code={props.data.icon} size={64} />
+            </div>
           </div>
           <div className="col-5" id="current">
             <WeatherTemperature fahrenheit={props.data.temperature} />

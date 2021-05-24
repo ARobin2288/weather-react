@@ -28,7 +28,7 @@ button:hover {
   background-blend-mode: screen, overlay;
   background: radial-gradient(
     circle at 2% 20%,
-    #f8f0b6 0%,
+    #ffe7b3 0%,
     #a38e93e3 54.2%,
     #136884 100.3%
   );
