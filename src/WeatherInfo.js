@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
       <div className="WeatherInfo">
         <FormalDate date={props.data.date} />
         <h1 className="place">{props.data.city}</h1>
-        <br />
+        <hr />
         <div className="row">
           <div className="col-5" id="extra">
             <h4>Feels Like</h4>

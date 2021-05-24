@@ -8,8 +8,8 @@
 }
 
 button {
-  color: #161d6f;
-  border-color: #726a95;
+  color: #1b1a17;
+  border-color: #f4f9f9;
   width: 66px;
   height: 30px;
   margin: 0 8px;
@@ -19,21 +19,13 @@ button {
 }
 
 button:hover {
-  color: #f8f1f1;
-  background-color: #d1d1d1;
+  color: #536162;
 }
 
 .weatherData {
-  background-image: linear-gradient(82deg, 0%, 22%);
   background-blend-mode: screen, overlay;
-  background: radial-gradient(
-    circle at 2% 20%,
-    #ffe7b3 0%,
-    #a38e93e3 54.2%,
-    #136884 100.3%
-  );
+  background-color: rgba(225, 229, 234, 0.9);
   position: relative;
-  border: 0px solid #625365;
   border-radius: 22px;
   box-shadow: 8px 8px 8px #625365;
   padding: 25px;

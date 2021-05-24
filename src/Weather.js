@@ -53,7 +53,6 @@ function search() {
         <br />
         <div className="weatherData">
         <WeatherInfo data={weatherData} />
-        <br />
         <WeatherForecast coordinates={weatherData.coordinates} />
         </div>
         </div>
