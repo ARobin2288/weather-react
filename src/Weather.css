@@ -24,7 +24,7 @@ button:hover {
 
 .weatherData {
   background-blend-mode: screen, overlay;
-  background-color: rgb(246, 246, 246, 0.9);
+  background-color: rgb(248, 241, 241, 0.9);
   position: relative;
   border-radius: 8px;
   box-shadow: 8px 8px 8px #625365;
