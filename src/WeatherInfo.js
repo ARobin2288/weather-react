@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
         <h1 className="place">{props.data.city}</h1>
         <hr />
         <div className="row">
-          <div className="col-5" id="extra">
+          <div className="col-4" id="extra">
             <h4>Feels Like</h4>
             <p>{Math.round(props.data.feels_like)}°F</p>
             <hr />
@@ -21,13 +21,17 @@ export default function WeatherInfo(props) {
             <h4>HUMIDITY</h4>
             <p>{Math.round(props.data.humidity)}%</p>
           </div>
-          <div className="col-2">
-            <div className="mainIcon">
-            <WeatherIcon code={props.data.icon} size={64} />
+          <div className="col-8" id="current">
+            <div className="clear-fix">
+              <div className="float-left">
+                <WeatherIcon code={props.data.icon} size={66} />
+              </div>
+              <div className="float-left">
+                <span>
+                  <WeatherTemperature fahrenheit={props.data.temperature} />
+                </span>
+              </div>
             </div>
-          </div>
-          <div className="col-5" id="current">
-            <WeatherTemperature fahrenheit={props.data.temperature} />
             <hr />
             <h4 className="conditions">{props.data.description}</h4>
           </div>
